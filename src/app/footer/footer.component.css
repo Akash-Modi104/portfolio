@@ -1,0 +1,22 @@
+:host .example-spacer {
+    flex: 1 1 auto;
+  }
+  :host .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    color: var(--green);
+    -webkit-text-stroke: 0.25px black;
+    font-size: 2rem;
+  
+  }
+
+  /* --green: #69F0AE;
+  --green-light: #B9F6CA;
+  --gray-light: #BDBDBD;
+  --dark-gray: #263238;
+  --black: #212121; */
+  

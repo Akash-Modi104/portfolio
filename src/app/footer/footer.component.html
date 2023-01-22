@@ -1,0 +1,24 @@
+<mat-toolbar class ="footer">
+   <span>AKash Modi</span>
+   <span class="example-spacer"></span>
+   <button mat-icon-button class="example-icon" [matMenuTriggerFor]="aboveMenu" aria-label="Example icon-button with menu icon">
+    <mat-icon>dark_mode</mat-icon>
+    <mat-menu #aboveMenu="matMenu" yPosition="above">
+      <button mat-menu-item>Dark Mode</button>
+      <button mat-menu-item>Light Mode</button>
+    </mat-menu>
+  
+  </button>
+  <span>&nbsp;&nbsp;</span>
+   <button mat-icon-button class="example-icon"  [matMenuTriggerFor]="menu" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+    <mat-menu #menu="matMenu" yPosition="above">
+      <button mat-menu-item>Personal Information</button>
+      <button mat-menu-item>Work Experience</button>
+      <button mat-menu-item>Education</button>
+      <button mat-menu-item>Projects</button>
+    </mat-menu>
+  </button>
+ </mat-toolbar>
+
+
